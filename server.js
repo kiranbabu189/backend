@@ -5,9 +5,9 @@ var express = require('express'),
   Task = require('./api/models/listingModel'), //created model loading here
   bodyParser = require('body-parser');
   
-// mongoose instance connection url connection
-mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/Tododb'); 
+// // mongoose instance connection url connection
+// mongoose.Promise = global.Promise;
+// mongoose.connect('mongodb://localhost/Tododb'); 
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
